@@ -16,6 +16,16 @@ This project demonstrates a production-style DevOps workflow:
 
 ---
 
+## Local Setup
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+---
+
 ## Local Development
 
 ### Run tests

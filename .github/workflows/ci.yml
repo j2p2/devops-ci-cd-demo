@@ -22,6 +22,14 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      - name: Run formatting check (Black)
+        run: |
+          black --check app tests
+
+      - name: Run linting (flake8)
+        run: |
+          flake8 app tests
+
       - name: Run tests
         run: |
           pytest -v
