@@ -8,7 +8,6 @@ This project demonstrates a production-style DevOps workflow:
 - Flask API service
 - Dockerized deployment artifact
 - Automated CI pipeline (tests + build)
-- Container publishing to GitHub Container Registry (GHCR)
 
 ---
 
@@ -16,9 +15,11 @@ This project demonstrates a production-style DevOps workflow:
 
 This pipeline includes:
 
-- Code formatting enforcement (Black)
-- Static linting (flake8)
-- Container vulnerability scanning (Trivy)
+- Automated testing with pytest
+- Code quality gates with Black + flake8
+- Docker image builds on push
+- Vulnerability scanning with Trivy
+- Container publishing to GHCR
 
 ---
 
