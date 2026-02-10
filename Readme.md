@@ -1,3 +1,6 @@
+![CI](https://github.com/j2p2/devops-ci-cd-demo/actions/workflows/ci.yml/badge.svg)
+![Publish](https://github.com/j2p2/devops-ci-cd-demo/actions/workflows/publish.yml/badge.svg)
+
 # DevOps CI/CD Demo (Flask + Docker + GitHub Actions)
 
 This project demonstrates a production-style DevOps workflow:
