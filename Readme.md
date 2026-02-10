@@ -59,6 +59,18 @@ Then open:
 
 http://localhost:8080/health
 
+---
+
+## Maintenance Automation
+
+This repository uses Dependabot to automatically:
+
+- Keep Python dependencies up to date
+- Track GitHub Actions version updates
+- Generate PRs for security and patch upgrades
+
+---
+
 ## Pipeline Example
 
 ![CI Pipeline](docs/pipeline.png)
