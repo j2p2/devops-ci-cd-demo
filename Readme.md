@@ -9,6 +9,16 @@ This project demonstrates a production-style DevOps workflow:
 
 ---
 
+## DevSecOps Features
+
+This pipeline includes:
+
+- Code formatting enforcement (Black)
+- Static linting (flake8)
+- Container vulnerability scanning (Trivy)
+
+---
+
 ## Endpoints
 
 - `GET /health` → service health check  
