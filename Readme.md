@@ -58,3 +58,7 @@ make run
 Then open:
 
 http://localhost:8080/health
+
+## Pipeline Example
+
+![CI Pipeline](docs/pipeline.png)
