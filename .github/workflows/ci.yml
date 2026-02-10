@@ -37,3 +37,10 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t devops-ci-cd-demo .
+    
+      - name: Scan Docker image for vulnerabilities (Trivy)
+        uses: aquasecurity/trivy-action@0.20.0
+        with:
+          image-ref: devops-ci-cd-demo
+          format: table
+          exit-code: 0
